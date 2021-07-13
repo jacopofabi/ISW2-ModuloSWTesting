@@ -5,9 +5,9 @@
   
 Esecuzione dei test e analisi coverage tramite JaCoCo:
 ```bash
-mvn clean verify -DjarfatPath=../src/test/lib/jcs-1.3-fat.jar
+mvn clean verify -DjarfatPath=../src/test/lib/jacococli.jar
 
-./JCS-ISW2/jacocoLibSnippets.sh 
+./jacocoLibSnippets.sh 
 ```
 I report saranno generati in ```..\JCS-ISW2\target\jacoco-gen\jcs-coverage```
 
