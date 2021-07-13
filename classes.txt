@@ -1,0 +1,8 @@
+org.apache.jcs.JCSUniTest
+org.apache.jcs.RemovalTestUtil
+
+org.apache.bookkeeper.proto.checksum.DigestManager
+org.apache.bookkeeper.bookie.storage.ldb.ReadCache
+
+org.apache.avro.io.BinaryData
+org.apache.avro.specific.SpecificData
