@@ -16,11 +16,11 @@ I report saranno generati in ```..\JCS-ISW2\target\jacoco-gen\jcs-coverage```
   
 Esecuzione dei test e analisi coverage tramite JaCoCo:
 ```bash
-mvn clean verify
+mvn "-Dtest=org/apache/bookkeeper/mytests/*Test" -DfailIfNoTests=false clean verify
 ```
 Esecuzione framework PIT:
 ```bash
-mvn clean verify -P pit-test
+mvn mvn "-Dtest=org/apache/bookkeeper/mytests/*Test" -DfailIfNoTests=false clean verify clean verify -P mutation
 ```
 I report della fase di mutation testing saranno generati in ```..\bookkeeper-server\target\pit-reports```
 
