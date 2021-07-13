@@ -20,7 +20,7 @@ mvn "-Dtest=org/apache/bookkeeper/mytests/*Test" -DfailIfNoTests=false clean ver
 ```
 Esecuzione framework PIT:
 ```bash
-mvn mvn "-Dtest=org/apache/bookkeeper/mytests/*Test" -DfailIfNoTests=false clean verify clean verify -P mutation
+mvn "-Dtest=org/apache/bookkeeper/mytests/*Test" -DfailIfNoTests=false clean verify clean verify -P mutation
 ```
 I report della fase di mutation testing saranno generati in ```..\bookkeeper-server\target\pit-reports```
 
